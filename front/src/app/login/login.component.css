@@ -1,0 +1,52 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+.mainMargin{
+    padding-left: 64px;
+    padding-right: 64px;
+    padding-top: 60px;
+    margin-bottom: 60px;
+}
+
+.titleLogin{
+    margin-bottom: 150px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+.group1{
+    margin-bottom: 35px;
+}
+
+.group2{
+    margin-bottom: 40px;
+}
+
+.rememberMe{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;  
+}
+
+.forgotPass{
+    color: #4987FF; /* Custom link color */
+    text-decoration: none; /* Remove underline */
+}
+
+.form-check-input:checked {
+    background-color: #4987FF; /* Change this to your desired color */
+    border-color: #4987FF;
+}
+
+.btnLogin{
+    margin-top: 70px;
+}
+
+.btn-custom {
+    background-color: #4987FF; /* Replace with your HEX color */
+    color: white; /* Adjust text color as needed */
+    border-color: #4987FF; /* Match the border to the background */
+    font-family: 'Open Sans', sans-serif;
+    font-weight:600 ;
+  }

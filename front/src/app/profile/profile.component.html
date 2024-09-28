@@ -1,0 +1,21 @@
+@if (currentUser) {
+    <div class="container">
+        <header>
+            <h1 class="jumbotron">
+                <strong>{{ currentUser.name }}</strong> Profile
+            </h1>
+        </header>
+        <p>
+            <strong>Email:</strong>
+            {{ currentUser.email }}
+        </p>
+        <strong>Roles: </strong>
+        <ul>
+            @for (role of currentUser.roles ; track role) {
+                <li>{{ role }}</li>
+            }
+        </ul>  
+    </div>
+}@else {
+    <p>Please Login.</p>
+}
